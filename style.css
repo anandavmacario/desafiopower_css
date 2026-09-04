@@ -1,0 +1,30 @@
+body {
+    background-color: #005690;
+    align-items: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    justify-content: space-around;
+
+}
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 30vh;           
+  border-radius: 50px;
+  background-color: #005690;
+  border: 5px solid #E6C972;
+
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-image: url(/images.jpg);
+  border-radius:50%;
+  justify-content: flex-start;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  margin-right: 300px; 
+}
