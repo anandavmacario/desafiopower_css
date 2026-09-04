@@ -1,30 +1,40 @@
 body {
     background-color: #005690;
-    align-items: center;
-    margin-left: 600px;
-    margin-right: 600px;
-    justify-content: space-around;
-
+    /* Removido margins exageradas que podiam esmagar o layout */
+    margin-left: 500px; 
+    margin-right: 500px;
+    padding: 0;
 }
+
 .container {
   display: flex;
-  justify-content: center; 
+  justify-content: center; /* Mantém as caixas centralizadas juntas */
   align-items: center;     
   height: 30vh;           
   border-radius: 50px;
   background-color: #005690;
   border: 5px solid #E6C972;
-
+  
+  gap: 20px;
 }
 
 .box {
   width: 150px;
   height: 150px;
   background-image: url(/images.jpg);
-  border-radius:50%;
-  justify-content: flex-start;
+  border-radius: 50%;
+  border: 3px solid #E6C972;
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat; 
-  margin-right: 300px; 
+  
 }
+
+.box2 {
+    
+    width: 150px;
+    height: 150px; 
+    background-color: #005690;
+    margin-top: 60px;
+}
+
